@@ -1,0 +1,78 @@
+/* styles.css */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color:#D2E9FB; /* Header background color */
+    color: #000000; /* Header text color */
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .logout-button {
+    background-color: #dc3545; /* Logout button background color */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+  .delete-button {
+    background-color: #dc3545; /* Logout button background color */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+
+  .logout-button:hover {
+    background-color: #b42433; /* Change color on hover */
+  }
+
+  .editProfile-button {
+    background-color: #2d1ad7; /* Logout button background color */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+  .editProfile-button:hover{
+    background-color: #1d0cb6;
+  }
+
+  .updateProfile_div{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 10px;
+      background-color: #D2E9FB;
+      width: 55vh;
+      padding: 25px;
+      height: 80vh;
+      text-align: center;
+      padding-top: 120px;
+      border-radius: 100px;
+  }
+  
+  
+  
